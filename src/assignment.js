@@ -70,10 +70,6 @@ for (let i = 1; i <= destination; i++) {
 function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
 
-    for (let celcius of arrayOfNumbers){
-      let farenheit = Math.trunc(celcius * 9/5 + 32);
-      result.push(farenheit);
-    }
     return result;
 }
 
